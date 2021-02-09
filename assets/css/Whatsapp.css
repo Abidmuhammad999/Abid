@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(40, 25, 58) ;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     font-family: 'Roboto Mono', monospace;
   }
 .whatsapp{
@@ -7,15 +7,15 @@ body{
     text-align: center;
 }
     .whatsapp h1{
-    color: rgb(129, 119, 118);
+    color: rgb(255, 247, 246);
 } 
  .whatsapp h2{
     
-    color: rgb(111, 95, 160);
+    color: rgb(207, 199, 233);
    
 }
 .whatsapp h4{
-  color: red;
+  color: rgb(241, 136, 136);
   text-shadow: seagreen;
 }
 .whatsapp button{
@@ -34,5 +34,14 @@ body{
   cursor: pointer;
 }
 
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
+.button1 {background-color: #4CAF50;
+  cursor: pointer;
+} /* Green */
+.button2 {background-color: #008CBA;
+cursor: pointer;} /* Blue */
+.button1:hover{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,66,1) 50%, rgba(252,176,69,1) 100%);
+}.button2:hover{
+  background: linear-gradient(124deg, rgba(34,193,195,1) 0%, rgba(45,77,253,1) 100%);
+
+}

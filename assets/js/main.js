@@ -14,8 +14,8 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backDelay: 2000
+      typeSpeed: 300,
+      backDelay: 4000
     });
   }
 
@@ -134,7 +134,7 @@ $('form').submit(function () {
 
   // Check if empty of not
   if (fname === '') {
-      alert(' name is empty.');
+      alert(' Name is empty.');
       return false;
   }
   else if (lname === '') {
