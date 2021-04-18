@@ -562,7 +562,7 @@ section {
 
   padding: 4rem 0 4rem 0;
   text-align: center;
-  background-image: url("../img/contactbg.png");
+  background-image: url("assets/img/contactbg.png");
   border-radius: 0.5rem;
   background-size: cover;
   animation: contact-bg 35s infinite;
